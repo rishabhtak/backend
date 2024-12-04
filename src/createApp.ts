@@ -14,6 +14,8 @@ import { ApiError } from "./model/error/ApiError";
 
 var cors = require("cors");
 
+
+
 export function createApp() {
   const app = express();
   const pgSession = require("connect-pg-simple")(session);
